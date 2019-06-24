@@ -1,0 +1,4 @@
+# Don't add data directory 
+# but keep this file
+*
+!.gitignore

@@ -1,6 +1,6 @@
 version: '2'
 services:
-  toastee:
+  template-name:
     build:
       context: ./docker
       dockerfile: Dockerfile
