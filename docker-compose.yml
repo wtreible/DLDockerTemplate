@@ -1,0 +1,9 @@
+version: '2'
+services:
+  toastee:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/src
+      - ./data:/data
